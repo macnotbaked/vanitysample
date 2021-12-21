@@ -1,0 +1,128 @@
+.banner {
+    position: relative;
+    background-image: url('/dist/img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    &__wrapper {
+        justify-content: right;
+        align-items: center;
+        height: 80vh;
+    }
+    &__text {
+        background-color: $primary;
+        padding: 10rem;
+    }
+}
+.about {
+    &__wrapper {
+        padding: 3rem 0;
+        span {
+        font-size: 2rem;
+        font-weight: 700;
+        }
+    }
+    &__info {
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 30rem;
+        }
+        p {
+            text-align: justify;
+            line-height: 2;
+        }
+    }
+    // &__more__info {
+    //     h2 {
+    //         font-size: 2rem;
+    //         text-align: justify;
+    //         font-weight: 400;
+    //     }
+    // }
+}
+.team {
+    &__wrapper {
+        padding: 3rem 0;
+        span {
+            font-size: 2rem;
+            font-weight: 700;
+            }
+    }
+    &__image {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5rem;
+        img {
+            width: 30rem;
+            border-radius: 50%;
+        }
+        .image {
+            text-align: center;
+            padding: 2rem 0;
+            span {
+            font-style: italic;
+            font-weight: 400;
+            }
+        }
+    }
+}
+.promo {
+    &__wrapper {
+        padding: 3rem 0;
+        span {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    &__list {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5rem;
+    }
+    &__item {
+        padding: 2rem 0;
+        img {
+            max-width: 30rem;
+            padding-bottom: 3rem;
+        }
+        p {
+        text-align: justify;
+        width: 30rem;
+        }
+    }
+}
+
+.services {
+    &__wrapper {
+        padding: 3rem 0;
+        span {
+            font-size: 2rem;
+            font-weight: 700;
+            }
+    }
+    &__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        text-align: center;
+    }
+    &__item {
+        padding: 2rem 0;
+        img {
+            max-width: 20rem;
+            height: 50rem;
+            object-fit: cover;
+            padding-bottom: 3rem;
+        }
+        a {
+            background-color: $primary;
+            padding: 1.5rem 5rem;
+            width: 100%;
+            text-align: center;
+            border-radius: 1rem;
+            transition: .5s ease;
+        }
+        a:hover {
+            background-color: $primary-d;
+        }
+    }
+}

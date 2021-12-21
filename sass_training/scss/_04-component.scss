@@ -1,0 +1,45 @@
+.header {
+    background-color: $primary;
+    padding: 2rem 0;
+    &__wrapper {
+        justify-content: space-between;
+        align-items:flex-end;
+    }
+    &__branding {
+        align-items: center;
+        img {
+            border: 1px solid $dark;
+        }
+        h1 {
+            margin-left: 2rem;
+            font-size: 2rem;
+        }
+        h1 span {
+            font-size: 1.5rem;
+            font-weight: 400;
+            display: block;
+        }
+    }
+    &__nav {
+        text-transform: uppercase;
+        a {
+        font-size: 1.3rem;
+        }
+        li {
+        margin-left: 5rem;
+        }
+    }
+}
+.nav {
+    text-transform: uppercase;
+    border-top: 1px solid $dark;
+    background-color: $gray-l;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    &__wrapper {
+        justify-content: center;
+    }
+    li {
+        margin: 0 5rem;
+    }
+}
