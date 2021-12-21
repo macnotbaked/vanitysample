@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background-color: #ffe6ff;
+  padding: 2rem 0;
+}
+
+.header__wrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header__branding {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__branding img {
+  border: 1px solid #262626;
+}
+
+.header__branding h1 {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.header__branding h1 span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+}
+
+.header__nav {
+  text-transform: uppercase;
+}
+
+.header__nav a {
+  font-size: 1.3rem;
+}
+
+.header__nav li {
+  margin-left: 5rem;
+}
+
+.nav {
+  text-transform: uppercase;
+  border-top: 1px solid #262626;
+  background-color: #f2f2f2;
+  padding: 1.5rem 0;
+  font-size: 1.3rem;
+}
+
+.nav__wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav li {
+  margin: 0 5rem;
+}
+
+.d--grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.d--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #262626;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+ul {
+  list-style: none;
+}
+
+.banner {
+  position: relative;
+  background-image: url("/dist/img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.banner__wrapper {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+
+.banner__text {
+  background-color: #ffe6ff;
+  padding: 10rem;
+}
+
+.about__wrapper {
+  padding: 3rem 0;
+}
+
+.about__wrapper span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about__info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__info img {
+  width: 30rem;
+}
+
+.about__info p {
+  text-align: justify;
+  line-height: 2;
+}
+
+.team__wrapper {
+  padding: 3rem 0;
+}
+
+.team__wrapper span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.team__image {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+.team__image img {
+  width: 30rem;
+  border-radius: 50%;
+}
+
+.team__image .image {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.team__image .image span {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.promo__wrapper {
+  padding: 3rem 0;
+}
+
+.promo__wrapper span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.promo__list {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+.promo__item {
+  padding: 2rem 0;
+}
+
+.promo__item img {
+  max-width: 30rem;
+  padding-bottom: 3rem;
+}
+
+.promo__item p {
+  text-align: justify;
+  width: 30rem;
+}
+
+.services__wrapper {
+  padding: 3rem 0;
+}
+
+.services__wrapper span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.services__list {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  text-align: center;
+}
+
+.services__item {
+  padding: 2rem 0;
+}
+
+.services__item img {
+  max-width: 20rem;
+  height: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 3rem;
+}
+
+.services__item a {
+  background-color: #ffe6ff;
+  padding: 1.5rem 5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.services__item a:hover {
+  background-color: #ffccff;
+}
+/*# sourceMappingURL=main.css.map */
